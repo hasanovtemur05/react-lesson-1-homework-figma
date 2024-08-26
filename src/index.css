@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgray;
+}
+@font-face {
+  font-family: "Heebo";
+  src: url(../heebo.ttf);
+}
+.container{
+  width: 1152px;
+  height: 2060px;
+  border: 1px solid;
+  border-left: 0px;
+  border-right: 0px;
+  margin: auto;
+  background-color: white;
+}
+header{
+  width: 100%;
+  height: 43px;
+  margin-top: 27px; 
+     
+}
+header ul{
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  list-style: none;
+  padding: 0px 120px;
+}
+header a{
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+  font-family: "Heebo";
+ 
+}
+header p{
+  font-family: "Heebo";
+  font-size: 20px;
+  padding: 0px 60px;
+  float: right;
+  word-spacing: 40px;
+  color: #21243D;
+}
+.john{
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.john .box{
+  width: 506px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.john .box img{
+  width: 243px;
+  height: 243px;
+  margin-left: 120px;
+}
+.john button:hover{
+  box-shadow: 5px 5px 10px grey;
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+}
+.john .box h1{
+  font-size: 44px;
+  font-family: "Heebo";
+  /* text-align: center; */
+  padding: 0px 30px;
+}
+.john .box p{
+  font-family: "Heebo";
+  font-size: 16px;
+  padding: 0px 30px;
+  color: #21243D;
+}
+.john .box button{
+  padding: 10px 25px;
+  outline: none;
+  color: white;
+  background-color:  #FF6464;
+  border: none;
+  border-radius: 5px;
+  margin-right: 280px;
+}
+.Recent-posts{
+  width: 1152px;
+  height: 336px;
+  background-color: #EDF7FA;
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+}
+.Recent-posts main{
+  width: 418px;
+  height: 295px;
+  background-color: white;
+}
+.text{
+  width:100%;
+  height: 60px;
+  background-color: #EDF7FA;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 600px;
+  margin: auto;
+}
+.text p:nth-child(1){
+  font-size: 22px;
+  font-family: "Heebo";
+}
+.text p:nth-child(2){
+  font-size: 16px;
+  font-family: "Heebo";
+  color: #00A8CC;
+}
+main h2{
+  padding: 24px 24px 0px 24px;
+  font-size: 26px;
+  font-family: "Heebo";
+}
+main #text{
+  padding: 24px 24px 0px 24px;
+  word-spacing: 20px;
+  font-family: "Heebo";
+}
+main p{
+  padding: 24px 24px 0px 24px;
+  font-size: 16px;
+  font-family: "Heebo";
+  color: #21243D;;
+}
+.Recent-posts main:hover{
+  border: 3px solid cornflowerblue;
+}
+.text2{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.text2 h2{
+  font-size: 22px;
+  font-family: "Heebo";
+  padding: 0px 100px;
+}
+.Featured-works{
+  width: 962px;
+  height: 780px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.Featured-works main{
+  width: 962px;
+  height: 180px;
+  display: flex;
+  
+}
+.Featured-works main h3{
+  padding: 30px 84px;
+  font-family: "Heebo";
+  opacity: 0.6;
+}
+.Featured-works main p{
+  padding: 0px 24px;
+  color: #21243D;
+}
+.Featured-works main h2{
+  padding: 0px 24px;
+}
+.Featured-works img:hover{
+  box-shadow: 5px 5px 10px grey;
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+footer{
+  width: 1152px;
+  height: 182px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 239, 239);
+}
+footer div{
+  width: 210px;
+  height: 100px;
+
+}
+footer div .icon{
+  width: 210px;
+  height:60px;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer i{
+  font-size: 25px;
+  color: #21243D;
+}
+footer p{
+  font-size: 14px;
+  color: #21243D;
+  padding: 10px 0px;
+}
+footer i:hover{
+  box-shadow: 5px 5px 10px grey;
+  transform: scale(1.5);
+  transition: transform 0.3s ease;
+}
